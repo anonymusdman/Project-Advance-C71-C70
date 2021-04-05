@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>SchoolProject</title>
+
+</head>
+
+<body>
+    <div id="navbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavBar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Forest Park Elementary School</a>
+        <ul class="nav navbar-nav">
+            <li><a href="#CampusLife" class="textnavbar">Campus Life</a></li>
+            <li><a href="#ContactUs" class="textnavbar">Contact Us</a></li>
+            <li><a href="#WhatsNew" class="textnavbar">Whats New</a></li>
+        </ul>
+    </div>
+    <div class="announcement">
+        <marquee class="myStyle" id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            Forest Park Misses You!
+        </marquee>
+    </div>
+
+    <section class="CampusLife">
+
+        <div>
+            <div style="float:left; margin-top: 50px">
+                <iframe style="margin-left: 200px;" class="twoiframe" margin-top="50px" width="560" height="315" src="https://www.youtube.com/embed/2gei3sC_L2c"  allowfullscreen></iframe>
+            </div>
+            <div style="float: right; margin-right: 200px; margin-top: 50px" class="inline-block">
+                <div>
+                    <kbd class="hadtoembed">The outside area</kbd>
+                </div>
+                <img src="running%20in%20the%20campus.jpeg" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p>Its a nice area with a little grass hill. There are wallball courts right against the school wall so we can play wallball.
+                </p>
+                <div>
+                    <kbd>The Lobby</kbd>
+                </div>
+                <img src="forestparklobby.jpeg" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p>
+                    It has three doorways one leading to the office one to the courtyards and playground and the other to the multi purpose room
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section class="WhatsNew">
+    <div id="whatsnewtitle">
+        Whats New?
+    </div>
+<!--        <span class="whatsnewsection">
+            Whats New
+        </span> -->
+        <span id="onetimestyle" style="float: right;">
+        <div>
+            <kbd class="hadtoembed">Spirit Wear is on sale now until 12/4!!</kbd>
+        </div>
+            
+            <iframe src="https://screenprintingconcepts.bigcartel.com/category/forest-park-elementary?page=2"></iframe>
+        </span>
+
+        <span id="twotimestyle" style="float: none;">
+        <div>
+           <center>
+                <kbd class="hadtoembed" style="margin-left: 580px;">Excited for the weekend like this first grader!! 📚</kbd>
+           </center> 
+        </div>
+            <img id="imgidlol"src="firstgraderweekend.jpeg">
+        </span>
+        
+        <span id="threetimestyle" style="float: left;">
+        <div>
+            <kbd class="hadtoembed">See ya next year!</kbd>
+        </div>
+            
+            <iframe src="https://www.youtube.com/embed?v=9cU2t-zzVbw"></iframe>
+        </span>
+        
+    </section>
+    <section class="AlumniSection">
+        <kbd id="koolkbd">Our Alumni</kbd>
+        <span class="twospansstyle" id="aluminlist" data-toggle="modal" data-target="#alumni_aparna">
+            Aparna Dhinakaran
+            <img src="aparna%20dhinakaran.png">
+        </span>
+        <span class="twospansstyle" data-toggle="modal" data-target="#alumni_eswar">
+            Eswar Dhinakaran
+            <img src="eswar%20dhinakaran.jpeg">        
+        </span>
+    </section>
+    <div class="modal fade" id="alumni_aparna">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Aparna Dhinakaran</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="aparna%20dhinakaran.png">
+                    <p class="p_modal">
+                        Co-Founder and CPO at Arize AI, ex-Uber, YC Founder
+                        <br>
+                        <a href="https://www.linkedin.com/in/aparnadhinakaran"><b>To know more</b></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="alumni_eswar">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Eswar Dhinakaran</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="eswar%20dhinakaran.jpeg">
+                    <p class="p_modal">
+                        Software engineer and entrepreneur
+                        <br>
+                        <a href="https://amazingrace.fandom.com/wiki/Eswar_%26_Aparna#Eswar_Dhinakaran"><b>To know more</b></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="ContactUs">
+        <center>
+            <div id="lodsastylin">
+                Contact Us
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.70536156206!2d-122.05444168468848!3d37.562004979798644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbe384ffda4df%3A0x3014705642fc6002!2sForest%20Park%20Elementary%20School!5e0!3m2!1sen!2sus!4v1616904636199!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </center>
+    </section>
+</body>
+
+</html>
